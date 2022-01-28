@@ -1,0 +1,185 @@
+* {
+
+  border: 0.2px solid rgba(0,0,0,0.3)
+}
+@font-face {
+  font-family:
+}
+
+body {
+  background: #92c582;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 18px;
+  color: black;
+  line-height: 1.3;
+  border: 0.2px solid rgba(0,0,0,0.3)
+}
+
+header {
+  /* display: flex;
+  flex-flow: row wrap;
+  justify-content: center; */
+  display: inline;
+}
+.text {
+  margin-left: 10%;
+  margin-right: 10%;
+  max-height: 180px;
+  max-width: 1000px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  background-color: #fdffe0;
+  border-radius: 10px;
+  border: 2px solid #536f50;
+  padding: 1%;
+
+}
+
+.logo-image {
+  max-width: 250px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+
+  /* background-color: #86a5a9; */
+}
+
+
+
+.name {
+  height: 32px;
+}
+/* .bokoblin-image {
+  width: 30%;
+} */
+
+.map {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  flex-shrink: 1;
+
+
+}
+
+.map-image {
+  display:flex;
+  width: 700px;
+  z-index: 0;
+  flex-shrink: 1;
+  border: 2px solid black;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+ .ready-button, .attack-button, .retreat-button, .move-button, .ready-yes, .ready-no  {
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+  height: 40px;
+  width: 100px;
+  background-color: #fdffe0;
+  margin: 10px;
+
+}
+
+.start {
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+  height: 40px;
+  width: 100px;
+  background-color: #fdffe0;
+
+
+
+}
+
+.submit {
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+  margin: 10px;
+  background-color: #86a5a9;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.buttons {
+  position: absolute;
+  padding-left: 10%;
+}
+
+.bokoblin, .bokoblin-image{
+  height: 150px;
+  width: 250px;
+  position: absolute;
+  top: 54%;
+  right: 45%;
+
+}
+
+.lizalfos, .lizalfos-image{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+}
+
+.moblin, .moblin-image {
+  max-height: 270px;
+  max-width: 200px;
+  position: absolute;
+  right: 60%;
+
+}
+
+.hinox, .hinox-image {
+  position: absolute;
+  height: 220px;
+  width: 250px;
+  top: 43%;
+  left: 43%;
+}
+
+.ganondorf, .ganondorf-image {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  left: 28%;
+  top: 20%;
+
+}
+
+.link, .link-image {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  top: 14vh;
+  right: 12vw;
+}
+.zelda, .zelda-image {
+  position: absolute;
+  height: 350px;
+  width: 300px;
+  top: 14vh;
+  left: 12vw;
+
+
+
+}
+.player-health {
+  padding-bottom: 2.5%;
+  color: red;
+  font-size: 1.2em;
+}
+
+/*
+.username-input {
+  background-color: white;
+  z-index: 1;
+  position: fixed;
+  display: none;
+} */
+
+.BBB {
+  text-align: right;
+}
